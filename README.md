@@ -103,7 +103,9 @@ dsh plugin --profile desktop add github:yashua233/dsh-qq-mail-notify
 | 字段 | 默认 | 说明 |
 | --- | --- | --- |
 | `enabled` | `true` | 总开关；关掉后不再轮询收件 |
-| `intervalMs` | — | **已废弃，改它没有任何效果**：留着只为兼容旧配置文件。实际节奏看下面的 `fastIntervalMs` / `slowIntervalMs` / `stopAfterMs`，默认 30 秒的快速档 |
+| `traceImap` | `false` | 打开后把 IMAP 收发过程打进日志，排障用 |
+
+> 旧配置里的 `intervalMs` **已被移除**，留着不会有任何作用——实际节奏看上面那三个 `fastWindowMs` / `fastIntervalMs` / `slowIntervalMs` / `stopAfterMs`。
 | `host` / `port` | `imap.qq.com` / `993` | IMAP 服务器，端口即隐式 TLS。不填时按 `user` 的域名自动推断服务商（QQ / 腾讯企业邮 / 163 / 126 / yeah / Gmail / Outlook），认不出的域名保持 QQ 默认 |
 | `tokenTtlMs` | `1800000` | 口令存活期（30 分钟）。每发一封通知都会把计时重置，所以「回复最近那封」总是有效 |
 | `user` / `authCode` | 取自通知插件 | 想用另一个邮箱收信时才需要填 |
