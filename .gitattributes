@@ -1,0 +1,15 @@
+* text=auto eol=lf
+
+*.js    text eol=lf
+*.mjs   text eol=lf
+*.json  text eol=lf
+*.yml   text eol=lf
+*.md    text eol=lf
+
+*.png   binary
+*.jpg   binary
+*.gif   binary
+*.ico   binary
+
+# keep svg as text so diffs are readable
+*.svg   text

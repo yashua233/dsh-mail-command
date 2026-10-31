@@ -1,0 +1,7 @@
+# dsh-mail-command bundle patch
+#
+# 一行插入，不带 config：intervalMs 等都有内置默认值。
+# 需要在 profile 的 cordis.patch.yml 里改时，用同样 id 覆盖即可。
+- insert:
+    - id: mail-command
+      name: 'dsh-mail-command'

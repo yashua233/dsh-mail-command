@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Mail Command",
+    "description": "Reply to a notification mail to continue or stop a running task; the body carries the instruction."
+  }
+}
