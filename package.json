@@ -1,6 +1,6 @@
 {
   "name": "dsh-mail-command",
-  "version": "1.3.16",
+  "version": "1.3.17",
   "description": "用邮件指挥 DeepSeek Harness：回复通知邮件即可让任务继续或停止，正文可以写具体要求。必须搭配 dsh-qq-mail-notify 使用——口令随它的通知邮件发出，单独安装本插件无效。",
 
   "type": "module",
