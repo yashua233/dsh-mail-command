@@ -34,6 +34,9 @@ dsh plugin --profile desktop add github:yashua233/dsh-mail-command
 ## 安装
 
 ```bash
+# 从 npm（已发布，命令最短）
+dsh plugin --profile desktop add dsh-mail-command
+
 # 从 GitHub
 dsh plugin --profile desktop add github:yashua233/dsh-mail-command
 
@@ -46,7 +49,8 @@ dsh plugin --profile desktop add link:/path/to/dsh-mail-command
 **建议与通知插件一起装**：
 
 ```bash
-dsh plugin --profile desktop add github:yashua233/dsh-qq-mail-notify
+dsh plugin --profile desktop add dsh-qq-mail-notify        # npm
+dsh plugin --profile desktop add github:yashua233/dsh-qq-mail-notify   # GitHub
 ```
 
 ## 怎么用
