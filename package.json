@@ -41,10 +41,10 @@
       "dsh-qq-mail-notify": "发送侧，必须：一次性口令随它的通知邮件发出，没有它本插件收不到可回复的邮件"
     },
     "compatibility": {
-      "dsh": "0.2.2-rc.1"
+      "dsh": ">=0.2.2-rc.1 <0.3.0-0"
     }
   },
-  "dshTarget": "0.2.2-rc.1",
+  "dshTarget": "0.2.2-rc.3",
   "license": "MIT",
   "author": {
     "name": "yashua233"
